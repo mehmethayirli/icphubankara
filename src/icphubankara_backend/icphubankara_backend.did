@@ -1,3 +1,11 @@
-service : {
+
+
+type Todo = record {
+    description: text;
+    done: bool;
+};
+
+service (Todo): {
     "greet": (text) -> (text) query;
+    "save_list": (Todo) -> (text) update;
 }
