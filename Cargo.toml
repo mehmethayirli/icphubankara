@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/icphubankara_backend"
+]
+resolver = "2"
